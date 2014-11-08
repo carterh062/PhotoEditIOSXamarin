@@ -1,0 +1,33 @@
+# Version: 8.4.0.16 (80e9ff7)
+# [first argument, ignore] # /Users/carter/Projects/Sample/Sample/bin/iPhoneSimulator/Debug/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.4.0.16/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/carter/Projects/Sample/Sample/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/carter/Projects/Sample/Sample/bin/iPhoneSimulator/Debug/Sample.app \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/2.1/System.Net.Http.dll \
+	-r \
+	/Users/carter/Downloads/Parse-1/Parse.iOS/Newtonsoft.Json.dll \
+	-r \
+	/Users/carter/Downloads/Parse-1/Parse.iOS/Parse.iOS.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	8.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/carter/Projects/Sample/Sample/bin/iPhoneSimulator/Debug/Sample.exe \
